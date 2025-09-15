@@ -1,2 +1,112 @@
-# CSCI225
-homework_fall25
+# workspace_html_2025
+<html>
+<head>
+    <title>CSCIA225 Homepage of Alia Gaddy Fall 25</title>
+     <style>
+        body {
+            
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-size: 16px;
+            
+        }
+        .navbar,
+        .introduction,
+        .assignments,
+        .contact-information,
+        .portfolio,
+        .other-sites,
+        table,
+        footer {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+      <div class="navbar">
+    
+        
+            <a href="#assignments"> Go to Assignments Section</a><br>
+            <a href="#Contact-Information"> Go to Contact Information</a>
+        
+    </div>
+
+    <!-- Introduction section -->
+    <div class="introduction">
+      
+     <h1>Welcome to Alia Gaddy's CSCIA225 Homepage</h1>
+             
+          <img src="./images/thumbnail_headshot.png" alt="headshot" width="600" height="350"><br>
+
+               <p>This is a draft website for course CSCIA225. This course is a junior level computer science elective. A thorough understanding of java is required. I'm excited to complete this page!</p>
+     </div>
+         
+    <div class="assignments" id="assignments">
+    <h1>Assignments</h1>
+         <ul>
+            <li><a href="https://aliagaddy-stu.github.io/CSCIA225/" target="blanks">Assignment1</a></li>
+            <li>assignment2.pdf</li>
+         </ul>
+    
+    </div>
+
+    <div class="contact-information" id="Contact-Information">
+          <h1>Contact Information</h1>
+            <ul> 
+                <li><a href="https://usca.edu/" target="_blank">USCA</a></li>
+                <li>Email: aliag@usca.edu</li>
+                <li>Telephone: 123-123-1234</li>
+            </ul>
+     </div>
+
+    <div class="portfolio" id="Portfolio">
+        <h1>Portfolio</h1>
+           <ul>
+              <li>No previous projects to list. Beginner student.</li>
+           </ul>
+    </div>
+
+     
+    <table border="1">
+      <h1><ins>Class Schedule</ins></h1>
+        <tr>
+            <th>Time</th>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+        </tr>
+        <tr>
+            <th>9:00 AM - 12:00 PM Block</th>
+            <td>ART</td>
+            <td>ART</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <th>12:00 PM - 15:00 PM Block</th>
+            <td>X</td>
+            <td>CSCI</td>
+            <td>CSCI</td>
+            <td>ART</td>
+            <td>ART</td>
+        </tr>
+    </table>
+    
+   
+        
+    <footer>
+        <p>&copy; 2025 Alia Gaddy | CSCIA225 | University of South Carolina Aiken</p>
+    </footer>
+</body>
+</html>
